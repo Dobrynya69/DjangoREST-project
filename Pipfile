@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "*"
+django = "*"
+django-extensions = "*"
+django-filter = "*"
+djangorestframework = "*"
+djangorestframework-jsonapi = "*"
+inflection = "*"
+python-dotenv = "*"
+pytz = "*"
+sqlparse = "*"
+tzdata = "*"
+cloudinary = "*"
+pillow = "*"
+psycopg2 = "*"
+django-cleanup = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
